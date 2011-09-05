@@ -13,9 +13,11 @@ namespace Moe.StateMachine.Tests
 		[SetUp]
 		public void Setup()
 		{
+			smb = new StateMachineBuilder();
 			events = new List<string>();
 		}
-
+		
+		
 		[Test]
 		public void Test_Transitions_DefaultTransition()
 		{

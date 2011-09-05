@@ -9,6 +9,7 @@ namespace Moe.StateMachine.Tests
 		[SetUp]
 		public void Setup()
 		{
+			smb = new StateMachineBuilder();
 			stateCalledBack = null;
 		}
 

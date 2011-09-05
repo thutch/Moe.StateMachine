@@ -6,6 +6,12 @@ namespace Moe.StateMachine.Tests
 	[TestFixture]
 	public class TestComplexTransitions : BaseTest
 	{
+		[SetUp]
+		public new void BaseSetup()
+		{
+			smb = new StateMachineBuilder();
+		}
+		
 		[Test]
 		public void Test_SuperstateSubState_WithMatchingEvents()
 		{
