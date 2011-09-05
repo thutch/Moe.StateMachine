@@ -1,0 +1,87 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 2.10.5" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Moe.StateMachine" expanded="True">
+            <Node name="Events" expanded="True" />
+          </Node>
+          <Node name="Moe.StateMachine.Extensions" expanded="True">
+            <Node name="Timers" expanded="True" />
+          </Node>
+          <Node name="Moe.StateMachine.Sample" expanded="True">
+            <Node name="Sample.cs" expanded="True">
+              <Node name="Sample.Designer.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node name="Moe.StateMachine.Tests" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="Moe.StateMachine.Extensions" expanded="True">
+            <Node name="Moe" expanded="True">
+              <Node name="StateMachine" expanded="True">
+                <Node name="Extensions" expanded="True">
+                  <Node name="Timers" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Moe.StateMachine.Sample" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+            <Node name="Moe" expanded="True">
+              <Node name="StateMachine" expanded="True">
+                <Node name="Sample" expanded="True">
+                  <Node name="Moe.StateMachine.Sample.Sample" expanded="True" />
+                  <Node name="Properties" expanded="True">
+                    <Node name="Moe.StateMachine.Sample.Properties.Resources" expanded="True" />
+                    <Node name="Moe.StateMachine.Sample.Properties.Settings" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Moe.StateMachine.Tests" expanded="True">
+            <Node name="References" expanded="True">
+              <Node name="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" expanded="True" />
+              <Node name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" expanded="True" />
+              <Node name="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" expanded="True" />
+            </Node>
+            <Node name="Moe" expanded="True">
+              <Node name="StateMachine" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="Moe.StateMachine.Tests.TimeoutTests" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="Moe.StateMachine.Tests" expanded="True">
+            <Node name="Moe" expanded="True">
+              <Node name="StateMachine" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="TestSimpleTransitions" expanded="True" />
+                  <Node name="TimeoutTests" expanded="True" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/thutch/Documents/Development/CSharp/Moe.StateMachine/Moe.StateMachine.Sample/Program.cs" line="16" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
