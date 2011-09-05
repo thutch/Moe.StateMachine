@@ -11,12 +11,14 @@ namespace Moe.StateMachine.Extensions.Timers
 		private DateTime nextTime;
 		private int timeoutPeriod;
 		private State state;
-		private Action<State> eventPoster;
+		private Action<State, object> eventPoster;
+		private object transitionEvent;
 
-		public TimeoutEvent(int timeoutInMilliseconds, State state, Action<State> eventPoster)
+		public TimeoutEvent(int timeoutInMilliseconds, object transitionEvent, State state, Action<State, object> eventPoster)
 		{
 			this.timeoutPeriod = timeoutInMilliseconds;
 			this.eventPoster = eventPoster;
+			this.transitionEvent = transitionEvent;
 			this.state = state;
 			this.state.Entered += OnStateEntered;
 			this.state.Exited += OnStateExited;
@@ -39,7 +41,7 @@ namespace Moe.StateMachine.Extensions.Timers
 		public void Execute()
 		{
 			SetActive(false);
-			eventPoster(state);
+			eventPoster(state, transitionEvent);
 		}
 
 		public void Dispose()

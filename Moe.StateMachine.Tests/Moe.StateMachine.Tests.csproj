@@ -88,6 +88,7 @@
     <Compile Include="TestData.cs" />
     <Compile Include="TestExtensions.cs" />
     <Compile Include="TimeoutTests.cs" />
+    <Compile Include="TimeoutTestsUserDefined.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Moe.StateMachine.Extensions\Moe.StateMachine.Extensions.csproj">

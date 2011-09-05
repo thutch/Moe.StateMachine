@@ -12,9 +12,9 @@ namespace Moe.StateMachine.Extensions.Timers
 			stateMachine = sm;
 		}
 
-		public void PostTimeout(State state)
+		public void PostTimeout(State state, object transitionEvent)
 		{
-			stateMachine.PostEvent(new SingleStateEventInstance(state, TimerBuilder.TimeoutEvent));
+			stateMachine.PostEvent(new SingleStateEventInstance(state, transitionEvent));
 		}
 	}
 }

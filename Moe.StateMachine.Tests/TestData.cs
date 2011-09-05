@@ -19,6 +19,7 @@
 	public enum Events
 	{
 		Change,
-		Panic
+		Panic,
+		OutATime
 	}
 }
